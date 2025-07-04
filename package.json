@@ -1,0 +1,31 @@
+{
+  "name": "web-application-for-digital-product-designers",
+  "version": "1.0.0",
+  "description": "Package for project root",
+  "main": "",
+  "scripts": {
+    "start": "concurrently \"npm run dev --prefix Backend\" \"npm run start --prefix Frontend\"",
+    "dev": "concurrently \"npm run dev --prefix Backend\" \"npm run start --prefix Frontend\"",
+    "install-all": "npm install --prefix Backend && npm install --prefix Frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trashpanda31/Web-Application-for-Digital-Product-Designers.git"
+  },
+  "author": "Eliass Rozenbergs st79687 4101BDA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trashpanda31/Web-Application-for-Digital-Product-Designers/issues"
+  },
+  "homepage": "https://github.com/trashpanda31/Web-Application-for-Digital-Product-Designers#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.787.0",
+    "bcrypt": "^5.1.1",
+    "git": "^0.1.5"
+  }
+}

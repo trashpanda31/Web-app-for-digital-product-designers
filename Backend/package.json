@@ -1,0 +1,50 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "src/app.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Eliass Rozenbergs st79687",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.787.0",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.8.2",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "csurf": "^1.2.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "express-validator": "^7.2.1",
+    "gridfs-stream": "^1.1.1",
+    "helmet": "^8.0.0",
+    "image-hash": "^5.3.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.14.2",
+    "mongoose": "^8.9.3",
+    "mongoose-gridfs": "^1.3.0",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^5.0.2",
+    "multer-s3": "^3.0.1",
+    "nodemailer": "^6.9.16",
+    "passport": "^0.7.0",
+    "passport-gitlab2": "^5.0.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.17.0",
+    "nodemon": "^3.1.9",
+    "rollup": "^4.34.8"
+  }
+}
