@@ -15,7 +15,7 @@ This diagram provides an overview of the application's architecture. It illustra
 * Detailed [Backend](https://i.imgur.com/ZVETIJa.png) and [Frontend](https://i.imgur.com/xR6Oyvw.png) component diagrams
 * Detailed [Activity](https://i.imgur.com/HeoDH5d.png) diagram
 ### Database diagram
-![Database Diagram](https://i.imgur.com/MhrDqyX.png)
+![Database Diagram](https://i.imgur.com/MhrDqyX.png)  
 Shows the main application entities and their relationships. The User model includes profile and authentication data (including OAuth), can create posts with images and tags, and write comments. 
 There's also a Message model for direct user-to-user communication.
 ##   🤖 Integrations and external services
